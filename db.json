@@ -1,0 +1,421 @@
+{
+    "viewgroup": [
+        {
+            "id": 1,
+            "vieName": "Tầng 1",
+            "engName": "1st floor",
+            "icon": ""
+        },
+        {
+            "id": 2,
+            "vieName": "Tầng 2",
+            "engName": "2nd floor",
+            "icon": ""
+        },
+        {
+            "id": 3,
+            "vieName": "Tầng 3",
+            "engName": "3rd floor",
+            "icon": ""
+        },
+        {
+            "id": 4,
+            "vieName": "Tầng 4",
+            "engName": "4th floor",
+            "icon": ""
+        },
+        {
+            "id": 5,
+            "vieName": "Tầng 5",
+            "engName": "5th floor",
+            "icon": ""
+        }
+    ],
+    "views": [
+        {
+            "id": 1,
+            "vieName": "Phòng khách",
+            "engName": "Living Room",
+            "viewGroup": 1,
+            "thumbnails": "https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1672686655
+        },
+        {
+            "id": 2,
+            "vieName": "Phòng ngủ",
+            "engName": "Bedroom",
+            "viewGroup": 1,
+            "thumbnails": "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/04/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1672600255
+        },
+        {
+            "id": 3,
+            "vieName": "Nhà bếp",
+            "engName": "Kitchen",
+            "viewGroup": 1,
+            "thumbnails": "https://www.thespruce.com/thmb/hMDxQB5mixNJ9EGstH6pbQ0aTwY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/more-storage-and-counter-space-in-a-small-kitchen-3017406-77e6037bb6854661bf221e3a5afb320d.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1672513855
+        },
+        {
+            "id": 4,
+            "vieName": "Phòng tắm",
+            "engName": "Bathroom",
+            "viewGroup": 1,
+            "thumbnails": "https://www.thespruce.com/thmb/J53yaSLGsDzkOOTYiXuP52oMJ8I=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/modern-bathroom-design-ideas-4129371-hero-723611e159bb4a518fc4253b9175eba8.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1672427455
+        },
+        {
+            "id": 5,
+            "vieName": "Ga-ra",
+            "engName": "Garage",
+            "viewGroup": 1,
+            "thumbnails": "https://www.thedrive.com/content-b/message-editor%2F1619453964334-img_4337-2.jpg?auto=webp&optimize=high&quality=70&width=1440",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1672341055
+        },
+        {
+            "id": 6,
+            "vieName": "Phòng khách",
+            "engName": "Living Room",
+            "viewGroup": 2,
+            "thumbnails": "https://hips.hearstapps.com/hmg-prod/images/1-alec-holland-hamptons-house-1661876383.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1672254655
+        },
+        {
+            "id": 7,
+            "vieName": "Phòng ngủ",
+            "engName": "Bedroom",
+            "viewGroup": 2,
+            "thumbnails": "https://hips.hearstapps.com/hmg-prod/images/ghk010121homefeature-008-1671137680.png?resize=1200:*",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1672168255
+        },
+        {
+            "id": 8,
+            "vieName": "Nhà bếp",
+            "engName": "Kitchen",
+            "viewGroup": 2,
+            "thumbnails": "https://www.bhg.com/thmb/MaQDVndcD-FF3qtf9e50rmfVml4=/4000x0/filters:no_upscale():strip_icc()/bhg-modern-kitchen-8RbSHoA8aKT9tEG-DcYr56-039892da05774ea78f8682b3f693bb5d.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1672081855
+        },
+        {
+            "id": 9,
+            "vieName": "Phòng tắm",
+            "engName": "Bathroom",
+            "viewGroup": 2,
+            "thumbnails": "https://www.bhg.com/thmb/-fMaB0U41bSke7O7bhH1cMl3g2s=/1244x0/filters:no_upscale():strip_icc()/black-white-modern-bathroom-plants-9a32b43a-8b9d4a315d88430882bfeef9c5d25d68.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1671995455
+        },
+        {
+            "id": 10,
+            "vieName": "Ban công",
+            "engName": "Balcon",
+            "viewGroup": 2,
+            "thumbnails": "https://www.ikea.com/images/ideas-para-decorar-el-balcon-o-la-terraza-en-primavera-544211f031677087fe4db3dfc228ca90.jpg?f=s",
+            "classification": [
+                {
+                    "id": 2
+                }
+            ],
+            "timetaken": 1671909055
+        },
+        {
+            "id": 10,
+            "vieName": "Phòng khách",
+            "engName": "Living Room",
+            "viewGroup": 3,
+            "thumbnails": "https://cdn.apartmenttherapy.info/image/upload/v1556039518/at/house%20tours/archive/Tour%20a%20Colorful%20Home%20in%20Montreal/9ddf96cc0b523b9b9b00e60dfb9ded877fb6b88b.jpg",
+            "classification": [],
+            "timetaken": 1671822655
+        },
+        {
+            "id": 11,
+            "vieName": "Phòng ngủ",
+            "engName": "Bedroom",
+            "viewGroup": 3,
+            "thumbnails": "https://hips.hearstapps.com/hmg-prod/images/edc100122futureperfect-008-1662653493.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1671736255
+        },
+        {
+            "id": 12,
+            "vieName": "Nhà bếp",
+            "engName": "Kitchen",
+            "viewGroup": 3,
+            "thumbnails": "https://s42814.pcdn.co/wp-content/uploads/2020/04/0120_Westerly_Reveal_6C_Kitchen_Alt_Angles_Lights_on_15-1-scaled.jpg.optimal.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1671649855
+        },
+        {
+            "id": 13,
+            "vieName": "Phòng tắm",
+            "engName": "Bathroom",
+            "viewGroup": 3,
+            "thumbnails": "https://images.livspace-cdn.com/plain/https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/2/2021/08/18133115/cover-15-1.png",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 4
+                }
+            ],
+            "timetaken": 1671649855
+        },
+        {
+            "id": 14,
+            "vieName": "Ban công",
+            "engName": "Balcon",
+            "viewGroup": 3,
+            "thumbnails": "https://images.ecestaticos.com/O2AmeoWcltxQDvH3YlQy72Btlfs=/0x568:2272x2272/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F091%2F8d4%2Ffe7%2F0918d4fe72480cc61d84a9b66aec012a.jpg",
+            "classification": [
+                {
+                    "id": 2
+                }
+            ],
+            "timetaken": 1671477055
+        },
+        {
+            "id": 15,
+            "vieName": "Phòng khách",
+            "engName": "Living Room",
+            "viewGroup": 4,
+            "thumbnails": "https://cdn.mos.cms.futurecdn.net/YvyuSURLH57RukNUCrzeeL.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1671390655
+        },
+        {
+            "id": 16,
+            "vieName": "Phòng ngủ",
+            "engName": "Bedroom",
+            "viewGroup": 4,
+            "thumbnails": "https://hips.hearstapps.com/hmg-prod/images/modern-bedroom-ideas-sunken-bed-1635424141.jpg",
+            "classification": [],
+            "timetaken": 1671304255
+        },
+        {
+            "id": 17,
+            "vieName": "Nhà bếp",
+            "engName": "Kitchen",
+            "viewGroup": 4,
+            "thumbnails": "https://media.architecturaldigest.com/photos/60a6a478ced6797772f44d7a/4:3/w_1424,h_1068,c_limit/20191011-DSC_7759-Edit_HI_RES.jpeg",
+            "classification": [],
+            "timetaken": 1671217855
+        },
+        {
+            "id": 18,
+            "vieName": "Phòng tắm",
+            "engName": "Bathroom",
+            "viewGroup": 4,
+            "thumbnails": "https://hips.hearstapps.com/hmg-prod/images/harder-jett-004-1643379016.jpg",
+            "classification": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 3
+                }
+            ],
+            "timetaken": 1671131455
+        },
+        {
+            "id": 19,
+            "vieName": "Ban công",
+            "engName": "Balcon",
+            "viewGroup": 4,
+            "thumbnails": "https://images.ctfassets.net/b85ozb2q358o/5d2e66413ad25a7aa6daed60c8b9f12033b49e972fcf9d9a1ba1764c52c14100/662c4946c29d9a01729ccb396e0e4f03/image.png",
+            "classification": [
+                {
+                    "id": 2
+                }
+            ],
+            "timetaken": 1671045055
+        },
+        {
+            "id": 20,
+            "vieName": "Phòng khách",
+            "engName": "Living Room",
+            "viewGroup": 5,
+            "thumbnails": "https://www.mydomaine.com/thmb/I-G241XIStQv30POSZ7iBe9Sc1o=/700x0/filters:no_upscale():strip_icc()/cdn.cliqueinc.com__cache__posts__212361__-2030968-1483470364.700x0c-8571e60cad7b42a981ab29ae10b5c153-497b002f87af4747b2ab38b560e7c0fd.jpg",
+            "classification": [
+                {
+                    "id": 1
+                }
+            ],
+            "timetaken": 1670872255
+        },
+        {
+            "id": 21,
+            "vieName": "Phòng ngủ",
+            "engName": "Bedroom",
+            "viewGroup": 5,
+            "thumbnails": "https://hips.hearstapps.com/hmg-prod/images/modern-bedroom-ideas-pink-1635352022.jpg?crop=1.00xw:0.753xh;0,0.115xh&resize=640:*",
+            "classification": [
+                {
+                    "id": 1
+                }
+            ],
+            "timetaken": 1670699455
+        },
+        {
+            "id": 22,
+            "vieName": "Nhà bếp",
+            "engName": "Kitchen",
+            "viewGroup": 5,
+            "thumbnails": "https://www.thespruce.com/thmb/TiVwyfd-o6P-s2iKlu9KjgmDOvA=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/exciting-small-kitchen-ideas-1821197-hero-d00f516e2fbb4dcabb076ee9685e877a.jpg",
+            "classification": [
+                {
+                    "id": 1
+                }
+            ],
+            "timetaken": 1670613055
+        },
+        {
+            "id": 23,
+            "vieName": "Phòng tắm",
+            "engName": "Bathroom",
+            "viewGroup": 5,
+            "thumbnails": "https://cdn-ganda.nitrocdn.com/UOUeYyqWCqliZVPzHjXTQFUrByTzEEDs/assets/images/optimized/rev-438b7b3/wp-content/uploads/2022/09/SMALL_BATHROOM_12-819x1024.jpg",
+            "classification": [
+                {
+                    "id": 1
+                }
+            ],
+            "timetaken": 1670526655
+        },
+        {
+            "id": 24,
+            "vieName": "Sân vườn",
+            "engName": "Garden",
+            "viewGroup": 5,
+            "thumbnails": "https://www.thespruce.com/thmb/oGCSIk4OJORMIDPYYlQjcUQc_s0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rooftop-gardening-1403340-hero-1965b16b3c244347b5f6d17ca3f0f4b1.jpg",
+            "classification": [
+                {
+                    "id": 2
+                },
+                {
+                    "id": 5
+                }
+            ],
+            "timetaken": 1670440255
+        }
+    ],
+    "classification": [
+        {
+            "id": 1,
+            "vieName": "Trong nhà",
+            "engName": "Indoors"
+        },
+        {
+            "id": 2,
+            "vieName": "Ngoài trời",
+            "engName": "Outdoors"
+        },
+        {
+            "id": 3,
+            "vieName": "Có nội thất",
+            "engName": "With furniture"
+        },
+        {
+            "id": 4,
+            "vieName": "Không có nội thất",
+            "engName": "Without furniture"
+        },
+        {
+            "id": 5,
+            "vieName": "Sân vườn",
+            "engName": "Garden"
+        }
+    ]
+}

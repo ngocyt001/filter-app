@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 4vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.sidebar {
+    width: 25%;
+    min-width: 300px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 15px;
+    height: 92vh;
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.controls-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.controls-icons img {
+    width: 40px;
+    height: 25px;
+    border-radius: 4px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.fa-circle {
+    color: orangered;
+}
+
+.sidebody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.searchBar {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.glass:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin: 0 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: orangered;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter .item {
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.filter .item select,
+.filter .item input {
+    /* width: 100%; */
+    padding: 5px;
+    border: none;
+    /* background-color: red; */
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    /* width: 65%; */
+}
+
+.list-check-box {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list-check-box-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+
+}
+
+.list-check-box-item input {
+    width: 10%;
+}
+
+
+/* display */
+.data {
+    width: 73%;
+    border-radius: 3px;
+    height: 92vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top {
+    height: 60px;
+    border-radius: 3px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.top i {
+    font-size: 28px;
+    display: none;
+}
+
+.top i:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.top div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 100%;
+}
+
+.top button {
+    width: 200px;
+}
+
+.header {
+    height: 200px;
+    border-radius: 3px;
+    background-color: #333;
+    margin: 3vh 0px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#root {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.box {
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.img-box {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bottom {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+h2 {
+    font-size: 20px;
+    color: orangered;
+}
+
+button {
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #root {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #root {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .top button {
+        font-size: 12px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .data {
+        display: none;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+    .data {
+        width: 100%;
+    }
+}
